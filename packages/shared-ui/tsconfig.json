@@ -1,0 +1,14 @@
+// packages/tsconfig.json
+
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "include": ["."],
+  "exclude": ["shared-ui/dist", "node_modules", "**/*.spec.ts"]
+}
