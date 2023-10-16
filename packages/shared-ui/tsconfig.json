@@ -1,5 +1,3 @@
-// packages/tsconfig.json
-
 {
   "compilerOptions": {
     "jsx": "react-jsx",
@@ -10,5 +8,5 @@
     "outDir": "./dist"
   },
   "include": ["."],
-  "exclude": ["shared-ui/dist", "node_modules", "**/*.spec.ts"]
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
 }

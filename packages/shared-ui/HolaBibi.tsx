@@ -1,6 +1,6 @@
 // packages/shared-ui/Button.tsx
 
-export function Button(props: any) {
+export function HolaBibi(props: any) {
   console.log('my feature');
 
   return (
@@ -11,4 +11,4 @@ export function Button(props: any) {
   );
 }
 
-export default Button;
+export default HolaBibi;
